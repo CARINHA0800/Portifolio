@@ -1,0 +1,35 @@
+.sobre__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.sobre__titulo{
+    font-size: var(--size-2x1);
+    color: var(--clr-light);
+}
+
+.sobre__descri{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-state600);
+}
+
+.sobre__hr{
+    border-color: var(--clr-state800)
+}
+
+.sobre__sub{
+    font-size: var(--size-sm);
+    color: var(--clr-state400);
+    
+}
+.sobre__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    display: inline-block;
+    padding: 15px;
+    
+}
