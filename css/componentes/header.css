@@ -1,11 +1,13 @@
 .header {
+    top: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    position: relative;
-    
+    position: fixed;
+    z-index: 9999;
+    background-color: var(--clr-dark);
     
 
 }

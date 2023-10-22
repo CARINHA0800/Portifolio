@@ -6,7 +6,7 @@
     gap: 1rem;
     margin-top: 2rem;
     border: 100px solid var(--clr-dark);
-
+    margin: 20px;
 }
 
 .perfil__img{
@@ -42,6 +42,42 @@
     text-transform: capitalize;
     font-size: var(--size-sm);
 }
+
+.perfil__links{
+    border-top: 30px solid var(--clr-dark);
+    bottom: -7rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+  
+    
+}
+.perfil__links a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    border: .2rem solid var(--clr-state800);
+    border-radius: 50%;
+    font-size: 20px;
+    
+    
+}
+
+#mostrar{
+    display: none;
+  }
+  
+  #passar_mouse:hover #mostrar{
+    display:block;
+    }
+
 
 @media(min-width: 475px){
     .perfil{
